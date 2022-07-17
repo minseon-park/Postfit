@@ -1,0 +1,125 @@
+.upload-video{
+    display: flex;
+    width: 100%;
+    padding-bottom: 400px;
+    background-color: #303841;
+    color: white;
+    
+}
+
+.upload-container{
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+
+.upload-video-form{
+    background-color: #3A4750;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-areas: "video-title video"
+                         "video-description video-thumbnail"
+                         "video-description video-category"
+                         "video-description video-button";                   
+    grid-template-columns: auto 50%;
+    grid-template-rows: 2fr 2fr 2fr, 2fr;
+    font-size: 1.2rem;
+    font-family: Karla; 
+    font-weight: normal;
+    padding: 2.5rem;
+}
+
+.upload-video-form > .vid-title{
+    grid-area: video-title;
+    
+}
+
+.vid-title > input {
+    display: block;
+    background: #D9D9D9;
+    font-family: Karla; 
+    font-weight: normal;
+    font-size: 1.3rem;
+    height: 1rem;
+    width: 77%;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 4%;
+    margin-top: 3%;
+    cursor: text;  
+}
+
+.upload-video-form > .video-description{
+    grid-area: video-description;
+}
+
+.video-description > textarea {
+    display: block;
+    width: 77%;
+    margin-top: 3%; 
+    margin-bottom: 30px;
+    padding: 4%;
+    font-size: 1.3rem;
+    font-family: Karla; 
+    font-weight: normal;
+    cursor: text;
+    border: none;
+    border-radius: 0.3rem;
+    resize: none
+}
+
+.upload-video-form > .video-thumbnail{
+    grid-area: video-thumbnail;
+    margin-bottom: 2rem;
+}
+
+.video-thumbnail > input{
+    padding-top: 1rem;
+}
+
+.upload-video-form > .video{
+    grid-area: video;
+    margin-bottom: 2rem;
+}
+
+.video > input{
+    padding-top: 1rem;
+
+}
+
+.upload-video-form > .video-category{
+    grid-area: video-category;
+    margin-bottom: 2rem;
+}
+
+.video-category > label{
+    padding-right: 1rem;
+}
+
+.video-category > select{
+    padding: 0.5rem;
+}
+
+.upload-video-form > .video-button{
+    grid-area: video-button;
+    background-color: #2185D5;
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    justify-self: right;
+
+}
+
+.upload-video-form > .video-button:hover{
+    background-color: #1a74bd;
+}
+
+
+
+
+

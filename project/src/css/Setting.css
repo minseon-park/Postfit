@@ -1,0 +1,47 @@
+.setting {
+    padding: 15em;
+    text-align: center;
+    background-color: #3A4750;
+    color: white;
+}
+
+.align-button{
+    display: inline-block;
+    padding: 1rem;
+}
+
+button[name="change-pass"]{
+    display: inline-block;
+    border-radius: 0.7rem;
+    background-color: #929AAB;
+    text-decoration:none;
+    text-align:center;
+    margin-top: 3%;
+    padding: 15px;
+    color:#FFFFFF;
+    font-size: 25px;
+    font-family: Karla;
+}
+
+button[name="delete-acc"]{
+    display: inline-block;
+    border-radius: 0.7rem;
+    background-color: #2185D5;
+    text-decoration:none;
+    text-align:center;
+    margin-top: 3%;
+    padding: 15px;
+    color:#FFFFFF;
+    font-size: 25px;
+    font-family: Karla;
+
+}
+
+.inner-box{
+    background-color: #303841;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    border-radius: 1rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}

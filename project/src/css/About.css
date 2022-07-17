@@ -1,0 +1,102 @@
+.about {
+    font-family: 'Noto Sans', Arial;
+    padding: 8.5rem 0 0 0;
+}
+
+.memberDisplay {
+}
+
+.about-1 {
+    background-image: url('../images/about/women-workout\ 1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 25rem;
+    position: relative;
+}
+
+.about-1-content {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: 4rem;
+    left: 5rem;
+}
+
+.about-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 60rem;
+    margin: 5rem auto;
+}
+
+.about-2 img {
+    width: 25rem;
+}
+
+.about-2-content {
+    font-size: 1rem;
+    width: 50%;
+}
+
+.about-2-content p {
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.about-2-content div {
+    margin: 2.5rem auto;
+    width: 90%;
+}
+
+.about-3 {
+    background-color: #3A4750;
+}
+
+.about-3 p {
+    display: flex;
+    font-size: 3rem;
+    color: white;
+    font-weight: 550;
+    justify-content: center;
+    padding: 2rem 0 0 0;
+}
+
+.about-3-member {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    width: 20rem;
+    height: 12rem;
+    margin: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.about-3-position {
+    margin: 0 0 0.5rem 0;
+}
+
+.about-3-position {
+    text-decoration-color: white;
+    color: black;
+    font-size: 0.7rem;
+}
+
+.about-3-github {
+    margin: 0 0 0.5rem 0;
+}
+
+.about-3-github span {
+    color: black;
+    font-size: 0.7rem;
+}
+
+.about-3-about span {
+    color: black;
+    font-size: 0.7rem
+}

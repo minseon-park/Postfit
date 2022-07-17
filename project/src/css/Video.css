@@ -1,0 +1,241 @@
+.video-page{
+    padding-top:135px;
+    background-color: #303841;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.video-player{
+    text-align: center;
+    background-color: black;
+    position: relative;
+}
+video {
+    width: 80%    !important;
+    height: auto   !important;
+  }
+
+  .video-date{
+      padding-bottom: 10px;
+  }
+
+
+.video-header{
+    color: white;
+    margin-left: 4%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.video-title{
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+#userimg {
+    border-radius: 50%;  
+    width:100%
+}
+
+.info-block{
+    width:85%;
+    height:200px;
+    padding-top: 15px;
+    font-size: 18px;
+    line-height: 35px;
+    display: inline-block;
+    overflow:hidden;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.video-comments{
+    height: 800px;
+}
+
+
+.video-description{
+    padding-top: 15px;
+}
+
+.show-more{
+    padding-top:10px;
+    color: LightGray;
+    font-weight:bold;
+}
+
+.video-info{
+    padding-top: 25px;
+    margin-left: 4%;
+}
+
+.user-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.add-playlist{
+    border:1px solid black;
+    background-color: #2185D5;
+    margin-top:-8.5%;
+    margin-left: 82%;
+    float: left;
+    width: 14%;
+    height: 20%;
+    text-align: center;
+    font-size: 21px;
+}
+
+.add-playlist-text{
+    margin-top: 8%;
+    color: white;
+    bottom: 10px;
+    position: relative;
+    z-index: 0;
+}
+
+#plus-sign{
+    font-weight: bold;
+    color: black;
+    display:inline;
+
+}
+
+.user-subscribers{
+    font-size: 13px;
+}
+
+.user-image{
+    width:5.5%;
+    margin-top:10px;
+    float:left;
+    padding-right: 25px;
+}
+
+.comments-header{
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    margin-left: 4%;
+}
+  
+  .comment-block{
+    background-color:#444444;
+    padding: 15px 10px 15px 10px;
+    margin-bottom:50px;
+    margin-left: 4%;
+    margin-right: 9%;
+    height: 100px;
+  }
+
+.comment-image{
+    height:100px;
+    width: 6%;
+    padding-right:20px;
+    padding-left: 15px;
+    float:left;
+}
+
+.comment-text{
+    margin-left: 90px;
+}
+
+.comment-message{
+    padding-top: 50px;
+}
+.comment-user{
+    padding-top:10px;
+    font-size: 20px;
+    font-weight: bold;
+    float:left;
+    height: 1px;
+}
+
+.comment-date{
+    padding-top:13px;
+    font-size: 15px;
+    margin-right: 70%;
+    color: lightGray;
+    font-weight: bold;
+    float:right;
+}
+
+#user-comment{
+    width:85%;
+    height: 40px;
+}
+
+.comment-form{
+    float:left;
+    width: 95%;
+    margin-top: -100px;
+    margin-left: 6.5%;
+}
+
+#comment-button{
+    float:right;
+    width:150px;
+    margin-top:-100px;
+    margin-right: 60px;
+    background-color: #505a61;
+    color: white;
+    font-family:'Noto Sans', sans-serif;
+    font-weight:bold;
+    height: 45px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.CommentButtonText{
+    margin-top: 5%;
+    position: relative;
+}
+
+#line {
+    border-top: 2px solid black;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #303841;
+}
+
+.signedInUser{
+    margin-top: 50px;
+    width:5%;
+    height:120px;
+    padding-right: 10px;
+}
+
+.signedInUserImage{
+}
+
+.user_email{
+    color: #303841
+}
+
+.user-comments{
+    margin-left: 110px;
+    margin-top: -2%;
+    height: 70%;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+    padding-bottom: 30px;
+}
+
+.webcam{
+    text-align: center;
+    padding-top: 10px;
+    background-color: #303841;
+}
+
+.comment-num1{
+    float:left;
+}
+.comment-num{
+    float:left;
+}
+
+#videoID {
+    color: #303841;
+}

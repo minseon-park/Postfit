@@ -1,0 +1,16 @@
+/* TODO: fill in CSS for User page */
+.user-page{
+    height: 100vh;
+    background-color: #303841;
+}
+
+.playlist-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.user-email{
+    color: white;
+}

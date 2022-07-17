@@ -1,0 +1,113 @@
+.category-slider {
+  display: inline-block;
+  font-family: 'Noto Sans', Arial;
+  color: white;
+}
+
+.display-region {
+  width: 90%;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.display-region::-webkit-scrollbar {
+  display: none;
+}
+
+.category {
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: Bold;
+
+    margin: 10px;
+    display: inline-block;
+    line-height: 100px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.image{
+    margin-top: 10px;
+    vertical-align: middle;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.image-item {
+  padding: 20px 0 20px 20px;
+}
+
+.slider-text{
+    font-family: Verdana, Arial;
+    bottom: 30px;
+    color: white;
+    position: relative;
+}
+
+
+
+.backward, .forward {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+    cursor: pointer;
+    color: black;
+    transition: 0.6s ease;
+}
+  
+.forward {
+    margin-left: 5px;
+}
+
+.backward {
+    margin-right: 5px;
+}
+
+.home-bottom div:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+.home-bottom div button:first-child {
+  background-color: #303841;
+  background-image: url('../images/Home/leftArrow.png');
+  background-size: 4rem 4rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+.home-bottom div button:last-child {
+  background-color: #303841;
+  background-image: url('../images/Home/rightArrow.png');
+  background-size: 4rem 4rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+.home-bottom div button {
+  border: none;
+  cursor: pointer;
+}
+
+.list-of-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 3rem;
+  width: 30rem;
+}
+
+.list-of-category {
+  margin-top: 1rem;
+  border-radius: 3px;
+  background-color: #3A4750;
+  width: 6rem;
+  padding: 0.8rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
